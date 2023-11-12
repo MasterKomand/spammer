@@ -36,24 +36,6 @@ import tracemalloc
 from threading import Event
 
 try:
-    from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
-    from aiogram import Bot, Dispatcher, executor, types
-    from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-    from aiogram.contrib.fsm_storage.memory import MemoryStorage
-except:
-    os.system("pip install aiogram")
-    from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
-    from aiogram import Bot, Dispatcher, executor, types
-    from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-    from aiogram.contrib.fsm_storage.memory import MemoryStorage
-
-try:
-    import asyncio
-except:
-    os.system("pip install asyncio")
-    import asyncio
-
-try:
     import requests
 except:
     os.system("pip install requests")
